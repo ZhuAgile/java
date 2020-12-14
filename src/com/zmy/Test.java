@@ -1,6 +1,6 @@
 package com.zmy;
 
-import org.springframework.util.StringUtils;
+/*import org.springframework.util.StringUtils;*/
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,7 +28,7 @@ public class Test {
      * */
     public static Map<String,String> parseStringToMap(String str){
         Map<String,String> param = new HashMap<>(0);
-        if(!StringUtils.isEmpty(str)){
+       /* if(!StringUtils.isEmpty(str)){
             if(str.indexOf(",") != -1){
                 String[] strs = str.split(",");
                 for(String strItem : strs){
@@ -41,7 +41,7 @@ public class Test {
                     param.put(str.substring(0, str.indexOf(":")), str.substring(str.indexOf(":")+1));
                 }
             }
-        }
+        }*/
         return param;
     }
 

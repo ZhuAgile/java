@@ -1,14 +1,14 @@
 package com.zmy.spring.AspectJ;
 
-import org.aspectj.lang.annotation.AfterReturning;
+/*import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Before;*/
 
-@Aspect
+/*@Aspect*/
 public class Audience {
 
-    @Before("execution(** com.zmy.spring.AspectJ.Performance.perform(..))")
+    /*@Before("execution(** com.zmy.spring.AspectJ.Performance.perform(..))")
     public void silenceCellPhone() {
         System.out.println("Silencing Cell Phones!");
     }
@@ -26,5 +26,5 @@ public class Audience {
     @AfterThrowing("execution(** com.zmy.spring.AspectJ.Performance.perform(..))")
     public void demandRefund() {
         System.out.println("Demanding a refund!");
-    }
+    }*/
 }

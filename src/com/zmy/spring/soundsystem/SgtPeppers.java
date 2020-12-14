@@ -1,8 +1,8 @@
 package com.zmy.spring.soundsystem;
 
-import org.springframework.stereotype.Component;
+/*import org.springframework.stereotype.Component;*/
 
-@Component(value="lonelyHeartClub")
+/*@Component(value="lonelyHeartClub")*/
 public class SgtPeppers implements CompactDisc{
 
     private String title = "Sgt. Pepper's Lonely Heats Club Band";
